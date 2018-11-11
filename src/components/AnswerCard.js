@@ -4,7 +4,7 @@ const AnswerCard = ({ letter, choice, selected, onClick }) => {
   const containerStyle = {
     display: 'flex',
     flexDirection: 'row',
-    border: selected ? '1px solid black' : '1px solid gray',
+    border: selected ? '3px solid black' : '3px solid gray',
     backgroundColor: selected ? 'yellow' : 'lightBlue',
     height: 50,
     width: 400,
